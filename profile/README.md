@@ -1,5 +1,22 @@
 # DSE-project-Group-24
 
+## Table of Contents
+
+1. [Architecture Diagram](#architecture-diagram)  
+2. [Backend Folder Structure (3 Separate FastAPI Backends)](#2-backend-folder-structure-3-separate-fastapi-backends)  
+   - [Core Backend (Auth + DB + Nurse logic)](#a-core-backend-auth--db--nurse-logic)  
+   - [Frequent Models Backend (Doctor-only prediction models)](#b-frequent-models-backend-doctor-only-prediction-models)  
+   - [Infrequent Models Backend (Gov/Admin prediction & analytics)](#c-infrequent-models-backend-govadmin-prediction--analytics)  
+3. [API Endpoint Map (Role-Based)](#3-api-endpoint-map-role-based)  
+   - [Core Backend (Auth + Nurse + Admin)](#a-core-backend-auth--nurse--admin)  
+   - [Frequent Models Backend (Doctors Only)](#b-frequent-models-backend-doctors-only)  
+   - [Infrequent Models Backend (Gov/Admin)](#c-infrequent-models-backend-govadmin)  
+
+---
+
+## Architecture Diagram
+
+
 ## Architecture diagram
 ```
 
