@@ -1,7 +1,6 @@
 # 🏥 Hospital Accident Analytics & ML‑Powered Decision Support System
 
 🚀 A complete end‑to‑end accident data engineering and predictive healthcare platform built by **University of Moratuwa — DSE Group 24**.
-
 This system digitalizes accident reporting and enhances medical decision‑making for hospitals while supporting national‑level health analytics.
 
 ---
@@ -35,12 +34,11 @@ DSE Accident Management & Analytics System
 
 ✅ Secure login via JWT
 
-✅ Manage staff **within their hospital only**:
+✅ Manage staff **within their hospital only**:- Add / update / remove **Doctors & Nurses**
 
-- Add / update / remove **Doctors & Nurses**
-  ✅ **No access** to other hospitals’ data
+✅ **No access** to other hospitals’ data
   
-  ✅ **Cannot** view patient medical data
+✅ **Cannot** view patient medical data
 
 > 🔒 Strict access control ensures hospital‑scoped privacy
 
