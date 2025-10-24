@@ -34,10 +34,12 @@ DSE Accident Management & Analytics System
 ### 🏥 1️⃣ Hospital Admin
 
 ✅ Secure login via JWT
+
 ✅ Manage staff **within their hospital only**:
 
 - Add / update / remove **Doctors & Nurses**
   ✅ **No access** to other hospitals’ data
+  
   ✅ **Cannot** view patient medical data
 
 > 🔒 Strict access control ensures hospital‑scoped privacy
@@ -47,14 +49,20 @@ DSE Accident Management & Analytics System
 ### 🩺 2️⃣ Doctor
 
 ✅ Access only to **their hospital’s** patients
+
 ✅ Search patient via name, NIC, or patient ID
+
 ✅ View **ongoing accidents only** with live ML predictions:
 
-- 🧮 **Estimated hospital stay duration**
+- ✅ **Estimated hospital stay duration**
+ 
 - ✅ **Discharge outcome prediction**
-- 🏥 **Transfer requirement probability**
-  ✅ Enter injury details to refine predictions
-  ✅ View results as **charts + summaries**
+ 
+- ✅ **Transfer requirement probability**
+
+✅ Enter injury details to refine predictions
+  
+✅ View results as **charts + summaries**
 
 > 🎯 Doctors get fast AI‑assisted decision support for patient triage
 
@@ -63,14 +71,18 @@ DSE Accident Management & Analytics System
 ### 👩‍⚕️ 3️⃣ Nurse (Data Entry Personnel)
 
 ✅ Login restricted to their hospital
+
 ✅ Add new accident patients using minimal details (name, ward, BHD)
+
 ✅ Later complete full record (injuries, incident details)
+
 ✅ If injury severity missing → **Auto‑classification using ML**:
 
 - Serious
 - Mild / Moderate
 - Unknown
-  ✅ Cannot access or modify external hospital data
+
+✅ Cannot access or modify external hospital data
 
 > 📝 Ensures fast reporting under emergency conditions
 
@@ -79,12 +91,16 @@ DSE Accident Management & Analytics System
 ### 🏛️ 4️⃣ Government Authority
 
 ✅ Nationwide analytics dashboard
+
 ✅ Predictive insights for public safety planning:
 
 - 📈 **Accident trend forecasts** (Time‑Series ML)
+
 - 🔗 **Association Rules** (e.g., No helmet + Motorbike → Head Injury)
+
 - ⚠️ **Severity risk factors** (top contributors to severe cases)
-  ✅ **Unknown severity** records estimated using ratio‑based ML
+
+✅ **Unknown severity** records estimated using ratio‑based ML
 
 > 📊 Supports data‑driven healthcare & policy decisions
 
